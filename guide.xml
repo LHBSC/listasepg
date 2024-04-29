@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password">f</license>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>6</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+  -->
+  
+  <channel site="dummy" site_id="xx" update="i" xmltv_id="Example">Example</channel>
+  <channel update="i" site="canalsat.fr" site_id="312" xmltv_id="Canalsat TF1">TF1</channel>
+    <channel update="i" site="canalsat.fr" site_id="26" xmltv_id="Canalsat FRANCE 2">FRANCE 2</channel>
+    <channel update="i" site="canalsat.fr" site_id="543" xmltv_id="Canalsat FRANCE 3">FRANCE 3</channel>
+    <channel update="i" site="canalsat.fr" site_id="301" xmltv_id="Canalsat CANAL+">CANAL+</channel>
+    <channel update="i" site="canalsat.fr" site_id="601" xmltv_id="Canalsat CANAL+">CANAL+</channel>
+    <channel update="i" site="canalsat.fr" site_id="545" xmltv_id="Canalsat FRANCE 5">FRANCE 5</channel>
+    <channel update="i" site="canalsat.fr" site_id="313" xmltv_id="Canalsat M6">M6</channel>
+    <channel update="i" site="canalsat.fr" site_id="154" xmltv_id="Canalsat ARTE">ARTE</channel>
+    <channel update="i" site="canalsat.fr" site_id="728" xmltv_id="Canalsat CANAL+ UHD">CANAL+ UHD</channel>
+    <channel update="i" site="canalsat.fr" site_id="83" xmltv_id="Canalsat CANAL+ SPORT 360">CANAL+ SPORT 360</channel>
+    <channel update="i" site="canalsat.fr" site_id="198" xmltv_id="Canalsat CANAL+ CINEMA">CANAL+ CINEMA</channel>
+    <channel update="i" site="canalsat.fr" site_id="900" xmltv_id="Canalsat CANAL+ GRAND ECRAN">CANAL+ GRAND ECRAN</channel>
+    <channel update="i" site="canalsat.fr" site_id="481" xmltv_id="Canalsat CANAL+ SERIES">CANAL+ SERIES</channel>
+    <channel update="i" site="canalsat.fr" site_id="899" xmltv_id="Canalsat CANAL+ DOCS">CANAL+ DOCS</channel>
+    <channel update="i" site="canalsat.fr" site_id="289" xmltv_id="Canalsat CHAINE EVENEMENT">CHAINE EVENEMENT</channel>
+    <channel update="i" site="canalsat.fr" site_id="322" xmltv_id="Canalsat CINE+ PREMIER">CINE+ PREMIER</channel>
+    <channel update="i" site="canalsat.fr" site_id="398" xmltv_id="Canalsat CINE+ FRISSON">CINE+ FRISSON</channel>
+    <channel update="i" site="canalsat.fr" site_id="396" xmltv_id="Canalsat CINE+ EMOTION">CINE+ EMOTION</channel>
+    <channel update="i" site="canalsat.fr" site_id="533" xmltv_id="Canalsat CINE+ FAMIZ">CINE+ FAMIZ</channel>
+    <channel update="i" site="canalsat.fr" site_id="532" xmltv_id="Canalsat CINE+ CLUB">CINE+ CLUB</channel>
+    <channel update="i" site="canalsat.fr" site_id="531" xmltv_id="Canalsat CINE+ CLASSIC">CINE+ CLASSIC</channel>
+    <channel update="i" site="canalsat.fr" site_id="372" xmltv_id="Canalsat OCS MAX">OCS MAX</channel>
+    <channel update="i" site="canalsat.fr" site_id="467" xmltv_id="Canalsat OCS CITY">OCS CITY</channel>
+    <channel update="i" site="canalsat.fr" site_id="466" xmltv_id="Canalsat OCS CHOC">OCS CHOC</channel>
+    <channel update="i" site="canalsat.fr" site_id="468" xmltv_id="Canalsat OCS GEANTS">OCS GEANTS</channel>
+    <channel update="i" site="canalsat.fr" site_id="374" xmltv_id="Canalsat TCM CINEMA">TCM CINEMA</channel>
+    <channel update="i" site="canalsat.fr" site_id="487" xmltv_id="Canalsat PARAMOUNT CHANNEL">PARAMOUNT CHANNEL</channel>
+    <channel update="i" site="canalsat.fr" site_id="504" xmltv_id="Canalsat ACTION">ACTION</channel>
+    <channel update="i" site="canalsat.fr" site_id="692" xmltv_id="Canalsat POLAR+">POLAR+</channel>
+    <channel update="i" site="canalsat.fr" site_id="694" xmltv_id="Canalsat WARNER TV">WARNER TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="356" xmltv_id="Canalsat SERIE CLUB">SERIE CLUB</channel>
+    <channel update="i" site="canalsat.fr" site_id="586" xmltv_id="Canalsat TV BREIZH">TV BREIZH</channel>
+    <channel update="i" site="canalsat.fr" site_id="505" xmltv_id="Canalsat RTL9">RTL9</channel>
+    <channel update="i" site="canalsat.fr" site_id="611" xmltv_id="Canalsat AB1">AB1</channel>
+    <channel update="i" site="canalsat.fr" site_id="693" xmltv_id="Canalsat NOVELAS TV">NOVELAS TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="526" xmltv_id="Canalsat TF1 SERIES FILMS">TF1 SERIES FILMS</channel>
+    <channel update="i" site="canalsat.fr" site_id="551" xmltv_id="Canalsat INFOSPORT+">INFOSPORT+</channel>
+    <channel update="i" site="canalsat.fr" site_id="534" xmltv_id="Canalsat COMEDIE+">COMEDIE+</channel>
+    <channel update="i" site="canalsat.fr" site_id="813" xmltv_id="Canalsat OLYMPIA TV">OLYMPIA TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="294" xmltv_id="Canalsat PARIS PREMIERE">PARIS PREMIERE</channel>
+    <channel update="i" site="canalsat.fr" site_id="292" xmltv_id="Canalsat TEVA">TEVA</channel>
+    <channel update="i" site="canalsat.fr" site_id="628" xmltv_id="Canalsat BET">BET</channel>
+    <channel update="i" site="canalsat.fr" site_id="450" xmltv_id="Canalsat C8">C8</channel>
+    <channel update="i" site="canalsat.fr" site_id="296" xmltv_id="Canalsat W9">W9</channel>
+    <channel update="i" site="canalsat.fr" site_id="584" xmltv_id="Canalsat TMC">TMC</channel>
+    <channel update="i" site="canalsat.fr" site_id="570" xmltv_id="Canalsat TFX">TFX</channel>
+    <channel update="i" site="canalsat.fr" site_id="568" xmltv_id="Canalsat NRJ 12">NRJ 12</channel>
+    <channel update="i" site="canalsat.fr" site_id="513" xmltv_id="Canalsat CSTAR">CSTAR</channel>
+    <channel update="i" site="canalsat.fr" site_id="521" xmltv_id="Canalsat 6TER">6TER</channel>
+    <channel update="i" site="canalsat.fr" site_id="571" xmltv_id="Canalsat RMC STORY">RMC STORY</channel>
+    <channel update="i" site="canalsat.fr" site_id="440" xmltv_id="Canalsat CHERIE 25">CHERIE 25</channel>
+    <channel update="i" site="canalsat.fr" site_id="520" xmltv_id="Canalsat TV5 MONDE">TV5 MONDE</channel>
+    <channel update="i" site="canalsat.fr" site_id="270" xmltv_id="Canalsat PLANETE+">PLANETE+</channel>
+    <channel update="i" site="canalsat.fr" site_id="587" xmltv_id="Canalsat PLANETE+ CI">PLANETE+ CI</channel>
+    <channel update="i" site="canalsat.fr" site_id="588" xmltv_id="Canalsat PLANETE+ A&amp;E">PLANETE+ A&amp;E</channel>
+    <channel update="i" site="canalsat.fr" site_id="678" xmltv_id="Canalsat MUSEUM">MUSEUM</channel>
+    <channel update="i" site="canalsat.fr" site_id="302" xmltv_id="Canalsat NATIONAL GEO">NATIONAL GEO</channel>
+    <channel update="i" site="canalsat.fr" site_id="290" xmltv_id="Canalsat NATIONAL GEOGRAPHIC WILD">NATIONAL GEOGRAPHIC WILD</channel>
+    <channel update="i" site="canalsat.fr" site_id="142" xmltv_id="Canalsat USHUAIA TV">USHUAIA TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="550" xmltv_id="Canalsat HISTOIRE TV">HISTOIRE TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="620" xmltv_id="Canalsat TOUTE L'HISTOIRE">TOUTE L'HISTOIRE</channel>
+    <channel update="i" site="canalsat.fr" site_id="577" xmltv_id="Canalsat SEASONS">SEASONS</channel>
+    <channel update="i" site="canalsat.fr" site_id="681" xmltv_id="Canalsat CHASSE ET PECHE">CHASSE ET PECHE</channel>
+    <channel update="i" site="canalsat.fr" site_id="503" xmltv_id="Canalsat ANIMAUX">ANIMAUX</channel>
+    <channel update="i" site="canalsat.fr" site_id="595" xmltv_id="Canalsat RMC DECOUVERTE">RMC DECOUVERTE</channel>
+
+    <channel update="i" site="canalsat.fr" site_id="544" xmltv_id="Canalsat FRANCE 4">FRANCE 4</channel>
+
+    <channel update="i" site="canalsat.fr" site_id="556" xmltv_id="Canalsat MCM">MCM</channel>
+    <channel update="i" site="canalsat.fr" site_id="552" xmltv_id="Canalsat LA CHAINE METEO">LA CHAINE METEO</channel>
+    <channel update="i" site="canalsat.fr" site_id="480" xmltv_id="Canalsat CNEWS">CNEWS</channel>
+    <channel update="i" site="canalsat.fr" site_id="633" xmltv_id="Canalsat BFM TV">BFM TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="553" xmltv_id="Canalsat LCI">LCI</channel>
+    <channel update="i" site="canalsat.fr" site_id="670" xmltv_id="Canalsat FRANCEINFO:">FRANCEINFO:</channel>
+    <channel update="i" site="canalsat.fr" site_id="554" xmltv_id="Canalsat LCP">LCP</channel>
+    <channel update="i" site="canalsat.fr" site_id="310" xmltv_id="Canalsat FRANCE 24">FRANCE 24</channel>
+    <channel update="i" site="canalsat.fr" site_id="324" xmltv_id="Canalsat EURONEWS">EURONEWS</channel>
+    <channel update="i" site="canalsat.fr" site_id="30" xmltv_id="Canalsat CNN INT.">CNN INT.</channel>
+    <channel update="i" site="canalsat.fr" site_id="589" xmltv_id="Canalsat BBC WORLD NEWS">BBC WORLD NEWS</channel>
+    <channel update="i" site="canalsat.fr" site_id="645" xmltv_id="Canalsat BFM BUSINESS">BFM BUSINESS</channel>
+    <channel update="i" site="canalsat.fr" site_id="47" xmltv_id="Canalsat BLOOMBERG TV">BLOOMBERG TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="64" xmltv_id="Canalsat CNBC">CNBC</channel>
+    <channel update="i" site="canalsat.fr" site_id="362" xmltv_id="Canalsat I24 NEWS">I24 NEWS</channel>
+    <channel update="i" site="canalsat.fr" site_id="723" xmltv_id="Canalsat CSTAR HITS FRANCE">CSTAR HITS FRANCE</channel>
+    <channel update="i" site="canalsat.fr" site_id="352" xmltv_id="Canalsat M6 MUSIC">M6 MUSIC</channel>
+    <channel update="i" site="canalsat.fr" site_id="569" xmltv_id="Canalsat NRJ HITS">NRJ HITS</channel>
+
+    <channel update="i" site="canalsat.fr" site_id="557" xmltv_id="Canalsat RFM TV">RFM TV</channel>
+    <channel update="i" site="canalsat.fr" site_id="580" xmltv_id="Canalsat MELODY">MELODY</channel>
+    <channel update="i" site="canalsat.fr" site_id="560" xmltv_id="Canalsat MEZZO">MEZZO</channel>
+    <channel update="i" site="canalsat.fr" site_id="268" xmltv_id="Canalsat MEZZO LIVE">MEZZO LIVE</channel>
+    <channel update="i" site="canalsat.fr" site_id="165" xmltv_id="Canalsat CLASSICA">CLASSICA</channel>
+
+    <channel update="i" site="canalsat.fr" site_id="815" xmltv_id="Canalsat CANAL+ PREMIER LEAGUE">CANAL+ PREMIER LEAGUE</channel>
+
+    <channel update="i" site="canalsat.fr" site_id="993" xmltv_id="Canalsat CANAL+ UHD">CANAL+ UHD</channel>
+    <channel update="i" site="canalsat.fr" site_id="926" xmltv_id="Canalsat F3 ALPES">F3 ALPES</channel>
+    <channel update="i" site="canalsat.fr" site_id="941" xmltv_id="Canalsat F3 ALSACE">F3 ALSACE</channel>
+    <channel update="i" site="canalsat.fr" site_id="922" xmltv_id="Canalsat F3 AQUITAINE">F3 AQUITAINE</channel>
+    <channel update="i" site="canalsat.fr" site_id="924" xmltv_id="Canalsat F3 AUVERGNE">F3 AUVERGNE</channel>
+    <channel update="i" site="canalsat.fr" site_id="923" xmltv_id="Canalsat F3 BNORMANDIE">F3 BNORMANDIE</channel>
+    <channel update="i" site="canalsat.fr" site_id="925" xmltv_id="Canalsat F3 BOURGOGNE">F3 BOURGOGNE</channel>
+    <channel update="i" site="canalsat.fr" site_id="939" xmltv_id="Canalsat F3 BRETAGNE">F3 BRETAGNE</channel>
+    <channel update="i" site="canalsat.fr" site_id="935" xmltv_id="Canalsat F3 CENTRE">F3 CENTRE</channel>
+    <channel update="i" site="canalsat.fr" site_id="938" xmltv_id="Canalsat F3 CHAMP ARDENNE">F3 CHAMP ARDENNE</channel>
+    <channel update="i" site="canalsat.fr" site_id="943" xmltv_id="Canalsat F3 CORSEVIASTELLA">F3 CORSEVIASTELLA</channel>
+    <channel update="i" site="canalsat.fr" site_id="934" xmltv_id="Canalsat F3 COTE D'AZUR">F3 COTE D'AZUR</channel>
+    <channel update="i" site="canalsat.fr" site_id="921" xmltv_id="Canalsat F3 FRANCHE COMTE">F3 FRANCHE COMTE</channel>
+    <channel update="i" site="canalsat.fr" site_id="940" xmltv_id="Canalsat F3 HNORMANDIE">F3 HNORMANDIE</channel>
+    <channel update="i" site="canalsat.fr" site_id="931" xmltv_id="Canalsat F3 LANGUEDOCROU">F3 LANGUEDOCROU</channel>
+    <channel update="i" site="canalsat.fr" site_id="928" xmltv_id="Canalsat F3 LIMOUSIN">F3 LIMOUSIN</channel>
+    <channel update="i" site="canalsat.fr" site_id="932" xmltv_id="Canalsat F3 LORRAINE">F3 LORRAINE</channel>
+    <channel update="i" site="canalsat.fr" site_id="942" xmltv_id="Canalsat F3 MIDI PYRENEES">F3 MIDI PYRENEES</channel>
+    <channel update="i" site="canalsat.fr" site_id="927" xmltv_id="Canalsat F3 NORD PDC">F3 NORD PDC</channel>
+    <channel update="i" site="canalsat.fr" site_id="936" xmltv_id="Canalsat F3 PARIS IDF">F3 PARIS IDF</channel>
+    <channel update="i" site="canalsat.fr" site_id="933" xmltv_id="Canalsat F3 PAYS DE LA LOIRE">F3 PAYS DE LA LOIRE</channel>
+    <channel update="i" site="canalsat.fr" site_id="920" xmltv_id="Canalsat F3 PICARDIE">F3 PICARDIE</channel>
+    <channel update="i" site="canalsat.fr" site_id="937" xmltv_id="Canalsat F3 POITOUCHAR">F3 POITOUCHAR</channel>
+    <channel update="i" site="canalsat.fr" site_id="930" xmltv_id="Canalsat F3 PROV ALPES">F3 PROV ALPES</channel>
+    <channel update="i" site="canalsat.fr" site_id="929" xmltv_id="Canalsat F3 RHONE ALPES">F3 RHONE ALPES</channel>
+    <channel update="i" site="canalsat.fr" site_id="998" xmltv_id="Canalsat FRANCE3 NOUVELLE AQUITAINE">FRANCE3 NOUVELLE AQUITAINE</channel>
+    <channel update="i" site="canalsat.fr" site_id="311" xmltv_id="Canalsat FRANCE 24 ENG">FRANCE 24 ENG</channel>
+    <channel update="i" site="canalsat.fr" site_id="21120" xmltv_id="Canalsat ARTE ALLEMAND">ARTE ALLEMAND</channel>
+    <channel update="i" site="canalsat.fr" site_id="696" xmltv_id="Canalsat EURONEWS ALL">EURONEWS ALL</channel>
+    <channel update="i" site="canalsat.fr" site_id="984" xmltv_id="Canalsat CANAL+">CANAL+</channel>
+ 
+</settings>
